@@ -115,20 +115,25 @@ Users have reported a prolonged task processing time, with a minimum of 5 minute
 
 ### Solution  
 **Explaination** 
--Order Matching: The system needs to meticulously match orders, considering various parameters, to ensure accuracy in task allocation.
--Docker Image Download: Retrieving the necessary Docker image for task execution is a critical step, and the time taken depends on the image size and network conditions.
--SGX Attestation Verification: Security is paramount, and the Dapp verifies the SGX attestation with Intel to ensure the integrity of the execution environment.
--Task Execution: The actual execution of the task involves complex computations, and the time taken is influenced by the nature and complexity of the task.
--Result Uploading: Once the task is executed, the results are uploaded, which can take time based on the size of the data and network conditions.
+- Order Matching:
+  The system needs to meticulously match orders, considering various parameters, to ensure accuracy in task allocation.
+- Docker Image Download:
+  Retrieving the necessary Docker image for task execution is a critical step, and the time taken depends on the image size and network conditions.
+- SGX Attestation Verification:
+  Security is paramount, and the Dapp verifies the SGX attestation with Intel to ensure the integrity of the execution environment.
+- Task Execution:
+  The actual execution of the task involves complex computations, and the time taken is influenced by the nature and complexity of the task.
+- Result Uploading:
+  Once the task is executed, the results are uploaded, which can take time based on the size of the data and network conditions.
 You can learn more about the task statuses in our documentation
 
 **Future improvements** 
 We acknowledge the concerns regarding the extended processing time and want our users to know that we are actively working on optimizing the performance of the iExec Protocol. Here are some aspects we are currently addressing:
--PoCo Boost - On-Chain Protocol Optimization:
+- PoCo Boost - On-Chain Protocol Optimization:
 We're optimizing our on-chain protocol with PoCo Boost to reduce transactions and lower gas usage per deal. This aims to significantly improve transaction speed and cost-effectiveness.
--Intel Collaboration and Research:
+- Intel Collaboration and Research:
 Constant collaboration with Intel includes in-depth research to enhance SGX attestation processes, ensuring a more secure and efficient iExec Protocol.
--Language Benchmarking:
+- Language Benchmarking:
 We're benchmarking worker processes across different code languages, aiming to identify the most efficient ones for specific tasks. This optimization contributes to overall Protocol performance.
 
 
