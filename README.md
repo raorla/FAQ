@@ -1,6 +1,6 @@
 # Frequently Asked Questions
 
-Welcome to the FAQ section. Here you'll find answers to common questions.
+Welcome to the iExec FAQ section. Here you'll find answers to common questions.
 
 ## Table of Contents
 
