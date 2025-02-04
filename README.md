@@ -33,12 +33,6 @@ Possible causes and fixes :
   - Set gas price to **0 Wei**
   - Ensure sufficient gas limit (minimum 2M recommended)
 
-```solidity
-// Example deployment configuration
-const tx = {
-  gasPrice: 0,
-  gasLimit: 2_000_000
-}; ```
 
 ---
 ## Question 1
