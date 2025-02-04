@@ -93,3 +93,16 @@ You are holding RLC on a centralized exchange (such as Binance, Kraken or Coinba
 ### Solution  
 The iExec sidechain “Bellecour” is an EVM-compatible chain that is only bridged to Ethereum Mainnet. iExec does not support direct transfers of funds from any centralized exchange to a wallet on Bellecour.
 This means that to use your RLC balance on iExec Sidechain “Bellecour” you will need to first use the “Withdraw” feature of your exchange to transfer RLC to a wallet on Ethereum Mainnet, and then you can use the iExec bridge to transfer RLC from that wallet to your wallet on iExec Sidechain “Bellecour”.
+
+
+## 🔹 CORS errors with The Graph
+
+### Problem
+The subgraph often responds with a CORS error, even though the actual issue might be something different, such as an invalid query or syntax errors in requests with The Graph.
+```
+Access to fetch at "x" from origin "y" has been blocked by CORS policy: Response to preflight request doesn't pass access control check:It does not have http ok status.
+The GraphQL net::ERR_FAILED
+```
+
+### Solution  
+Verify the syntax before further analysis, such as checking for missing curly braces, you can directly test the query on the following URL: [thegraph.bellecour.iex.ec](https://thegraph.bellecour.iex.ec/subgraphs/name/bellecour/poco-v5). This will allow you to quickly identify syntax errors.
