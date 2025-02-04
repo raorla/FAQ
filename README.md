@@ -33,8 +33,9 @@ Possible causes and fixes :
   - Set gas price to **0 Wei**
   - Ensure sufficient gas limit (minimum 2M recommended)
 
+---
 
-## Error: "Failed to Establish an Encrypted Channel to CAS"
+## 🔹 Error: Failed to Establish an Encrypted Channel to CAS
 
 ### Problem
 When running a SCONE-based TEE Dapp, you might encounter the following error:
