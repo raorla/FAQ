@@ -22,14 +22,14 @@ iExec Sidechain “Bellecour” is a standard EVM-based sidechain dedicated to t
 
 ### Solution  
 Possible causes and fixes :
-- 🕵️ **Whitelisting Required**  
+- **Whitelisting Required**  
   Only whitelisted wallets can deploy contracts.  
   → [Request whitelisting via support ticket]
 
-- 🔐 **Incorrect Wallet**  
+- **Incorrect Wallet**  
   Verify you're using your whitelisted deployment wallet.
 
-- ⛽ **Gas Configuration**  
+- **Gas Configuration**  
   - Set gas price to **0 Wei**
   - Ensure sufficient gas limit (minimum 2M recommended)
 
