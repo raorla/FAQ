@@ -34,9 +34,20 @@ Possible causes and fixes :
   - Ensure sufficient gas limit (minimum 2M recommended)
 
 
----
-## Question 1
+## Error: "Failed to Establish an Encrypted Channel to CAS"
 
-**Q: What is the purpose of this FAQ?**
+### Problem
+When running a SCONE-based TEE Dapp, you might encounter the following error:
+```
+[SCONE|WARN] rust-cache/cargo/registry/src/github.com-1ecc6299db9ec823/rustls-0.19.1/src/session.rs:798:Sending fatal alert BadCertificate
+[SCONE|FATAL] src/process/init.c:379:__scone_prepare_secure_config(): Could not initialize enclave state: Attestation failed
+Caused by: Failed to establish an encrypted channel to CAS
+Caused by: I/O error
+Caused by: invalid certificate: UnknownIssuer 
+```
 
-**A:** This FAQ aims to provide answers to common questions about our project.
+### Solution  
+This error happens when the image used to build the application does not match the CAS version set-up in the worker.
+To solve the issue, please make sure that:
+- You are building your Dapp using the latest version of the sconifier image
+- You are following the instructions provided in the [documentation](https://protocol.docs.iex.ec/for-developers/confidential-computing/create-your-first-sgx-app).
