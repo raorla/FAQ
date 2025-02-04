@@ -33,7 +33,6 @@ Possible causes and fixes :
   - Set gas price to **0 Wei**
   - Ensure sufficient gas limit (minimum 2M recommended)
 
----
 
 ## 🔹 Error: Failed to Establish an Encrypted Channel to CAS
 
@@ -52,3 +51,12 @@ This error happens when the image used to build the application does not match t
 To solve the issue, please make sure that:
 - You are building your Dapp using the latest version of the sconifier image
 - You are following the instructions provided in the [documentation](https://protocol.docs.iex.ec/for-developers/confidential-computing/create-your-first-sgx-app).
+
+
+## 🔹 Accessing the SCONE build tools
+
+### Problem
+You have requested access to the SCONE build tools via email but have not received a response, and the tools are not appearing on GitLab.
+
+### Solution  
+Access to the SCONE tools is typically granted within 2 to 24 hours. If you haven't received a reply after this period, it's advisable to contact the Scontain team again.
