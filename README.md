@@ -1,4 +1,19 @@
-# iExec FAQ - Troubleshooting and Common Issues
+# Frequently Asked Questions (FAQ)
+
+Welcome to the FAQ section. Here you'll find answers to common questions categorized for easy navigation.
+
+## Table of Contents
+
+- [Deployment Issues](#deployment-issues)
+- [Error Messages](#error-messages)
+- [Access and Permissions](#access-and-permissions)
+- [Compatibility](#compatibility)
+- [Configuration](#configuration)
+- [Important Updates](#important-updates)
+- [Language Support](#language-support)
+- [General Inquiries](#general-inquiries)
+
+---
 
 ## 🔹 Deployment Issues on Bellecour Sidechain
 
