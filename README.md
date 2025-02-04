@@ -4,7 +4,7 @@ Welcome to the FAQ section. Here you'll find answers to common questions categor
 
 ## Table of Contents
 
-- [Deployment Issues](#deployment-issues)
+- [Deployment Issues](# 🔹 Deployment Issues on Bellecour Sidechain)
 - [Error Messages](#error-messages)
 - [Access and Permissions](#access-and-permissions)
 - [Compatibility](#compatibility)
