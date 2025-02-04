@@ -74,3 +74,22 @@ ERROR: Sorry, this node version is not supported!
 To address the issue, ensure that you are using Node.js version 14 in your Docker file when sconifying. Scone currently supports only Node.js version 14.
  
 Keep in mind that it's important to stay updated on Scone's compatibility requirements, and check for any future announcements regarding support for newer Node.js versions. This will help prevent delays and ensure a smoother development process. If you continue to face issues, consider reaching out to our support team for further assistance.
+
+
+## 🔹 Buffer is not defined
+
+### Problem
+ReferenceError : "Buffer is not defined" on a vite project .
+
+### Solution  
+Configuring a polyfill for the Buffer
+https://stackoverflow.com/questions/70714690/buffer-is-not-defined-in-react-vite 
+
+## 🔹 Can I bridge RLC from a centralized exchange to The iExec Sidechain "Bellecour"?
+
+### Problem
+You are holding RLC on a centralized exchange (such as Binance, Kraken or Coinbase) and want to transfer some of your balance to iExec Sidechain “Bellecour” so you can use them with iExec, for example for requesting tasks.
+
+### Solution  
+The iExec sidechain “Bellecour” is an EVM-compatible chain that is only bridged to Ethereum Mainnet. iExec does not support direct transfers of funds from any centralized exchange to a wallet on Bellecour.
+This means that to use your RLC balance on iExec Sidechain “Bellecour” you will need to first use the “Withdraw” feature of your exchange to transfer RLC to a wallet on Ethereum Mainnet, and then you can use the iExec bridge to transfer RLC from that wallet to your wallet on iExec Sidechain “Bellecour”.
