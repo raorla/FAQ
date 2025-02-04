@@ -82,8 +82,8 @@ Keep in mind that it's important to stay updated on Scone's compatibility requir
 ReferenceError : "Buffer is not defined" on a vite project .
 
 ### Solution  
-Configuring a polyfill for the Buffer
-https://stackoverflow.com/questions/70714690/buffer-is-not-defined-in-react-vite 
+To solve the issue, configure a polyfill for Buffer by following this guide:  
+[Buffer polyfill on StackOverflow](https://stackoverflow.com/questions/70714690/buffer-is-not-defined-in-react-vite)
 
 ## 🔹 Can I bridge RLC from a centralized exchange to The iExec Sidechain "Bellecour"?
 
