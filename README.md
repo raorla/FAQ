@@ -85,6 +85,7 @@ ReferenceError : "Buffer is not defined" on a vite project .
 To solve the issue, configure a polyfill for Buffer by following this guide:  
 [Buffer polyfill on StackOverflow](https://stackoverflow.com/questions/70714690/buffer-is-not-defined-in-react-vite)
 
+
 ## 🔹 Can I bridge RLC from a centralized exchange to The iExec Sidechain "Bellecour"?
 
 ### Problem
@@ -108,6 +109,7 @@ The GraphQL net::ERR_FAILED
 Verify the syntax before further analysis, such as checking for missing curly braces, you can directly test the query on the following URL: [thegraph.bellecour.iex.ec](https://thegraph.bellecour.iex.ec/subgraphs/name/bellecour/poco-v5). This will allow you to quickly identify syntax errors.
 
 
+
 ## 🔹 Task processing is too long
 
 ### Problem
@@ -127,7 +129,8 @@ Users have reported a prolonged task processing time, with a minimum of 5 minute
   Once the task is executed, the results are uploaded, which can take time based on the size of the data and network conditions.
 You can learn more about the task statuses in our documentation
 
-**Future improvements** 
+**Future improvements**
+
 We acknowledge the concerns regarding the extended processing time and want our users to know that we are actively working on optimizing the performance of the iExec Protocol. Here are some aspects we are currently addressing :
 - PoCo Boost - On-Chain Protocol Optimization :
 We're optimizing our on-chain protocol with PoCo Boost to reduce transactions and lower gas usage per deal. This aims to significantly improve transaction speed and cost-effectiveness.
