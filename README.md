@@ -15,10 +15,10 @@ Welcome to the FAQ section. Here you'll find answers to common questions categor
 
 ---
 
-## 🔹 Deployment Issues on Bellecour Sidechain
+## 🔹 Issues with deploying smart contracts on Bellecour
 
 ### Problem  
-Deploying smart contracts on the iExec Sidechain "Bellecour" (EVM-compatible) may encounter specific errors.
+iExec Sidechain “Bellecour” is a standard EVM-based sidechain dedicated to the iExec protocol. This article lists some of the things that can go wrong when one attempts to deploy smart contracts on IExec Sidechain Bellecour.
 
 ### Solution  
 Possible causes and fixes :
@@ -38,4 +38,11 @@ Possible causes and fixes :
 const tx = {
   gasPrice: 0,
   gasLimit: 2_000_000
-};
+}; ```
+
+---
+## Question 1
+
+**Q: What is the purpose of this FAQ?**
+
+**A:** This FAQ aims to provide answers to common questions about our project.
