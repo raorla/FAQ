@@ -24,7 +24,7 @@ iExec Sidechain “Bellecour” is a standard EVM-based sidechain dedicated to t
 Possible causes and fixes :
 - **Whitelisting Required**  
   Only whitelisted wallets can deploy contracts.  
-  → [Request whitelisting via support ticket]
+  → [Request whitelisting via support ticket](https://iexecproject.atlassian.net/servicedesk/customer/portal/4/group/9/create/66)
 
 - **Incorrect Wallet**  
   Verify you're using your whitelisted deployment wallet.
