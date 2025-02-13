@@ -17,8 +17,8 @@ Welcome to the iExec FAQ section. Here you'll find answers to common questions.
 <details>
   <summary>Returned data is always a file</summary>
   
-  - The output it's a file and it's always be zipped with its content
-  - It's possible to push the output on a blockchain
+    The output it's a file and it's always be zipped with its content
+    It's possible to push the output on a blockchain
 
 </details>
 <details>
