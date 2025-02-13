@@ -191,9 +191,10 @@ We're benchmarking worker processes across different code languages, aiming to i
 - Default whitelisted app address: 0x256bcd881c33bdf9df952f2a0148f27d439f2e64
 - For custom apps, they need to be whitelisted by the iExec team
 
-### Problem: Collection Management Access
+### Problem
+Collection Management Access
 **Error Message:** "This collection can't be managed by you"
-**Solution:**
+### Solution
 - Only collection owners can manage their collections
 - Users need proper permissions to add to collections
 - Consider implementing a two-step collection management system:
@@ -202,15 +203,17 @@ We're benchmarking worker processes across different code languages, aiming to i
 
 ## 🔹 Protected Data Consumption Issues
 
-### Problem: Workerpool Order Not Found
+### Problem
+Workerpool Order Not Found
 **Error Message:** "Could not find a workerpool order, maybe too many requests?"
-**Solution:**
+### Solution
 - Retry after a few minutes when computing resources become available
 - This happens when the workerpool is at 100% capacity
 - The error is temporary and related to resource availability
 
-### Problem: Task Processing Stuck at 0%
-**Solution:**
+### Problem
+Task Processing Stuck at 0%
+### Solution
 - Check if trying to consume the same data multiple times
 - Verify data size and format
 - Use the task debug feature to see detailed logs:
@@ -219,22 +222,22 @@ We're benchmarking worker processes across different code languages, aiming to i
   ```
 
 ## 🔹 Integration Issues
-
-### Problem: CORS in Development
+### Problem
+CORS in Development
 **Error Message:** "Access to fetch at 'https://ipfs-upload.v8-bellecour.iex.ec/api/v0/add' has been blocked by CORS policy"
-**Solution:**
+### Solution
 - Use the recommended IPFS gateway: https://ipfs-gateway.v8-bellecour.iex.ec
 - For content creators, use: https://github.com/iExecBlockchainComputing/content-creator-usecase-demo/.env.prod
 
-### Problem: Next.js Integration Error
+## 🔹 Next.js Integration Error
+### Problem
 **Error Message:** "Module parse failed: Unexpected token (808:63)"
-**Solution:**
+### Solution
 - Ensure proper initialization of DataProtector methods
 - Don't just initialize the module, use specific methods like protectData()
 - Reference the sandbox implementation: https://codesandbox.io/p/github/iexecblockchaincomputing/dataprotector-sandbox/main
 
 ## 🔹 Chain Support and Configuration
-
 ### Problem
 Custom Chain Support
 **Context:** Using DataProtector with different chains
