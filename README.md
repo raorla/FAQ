@@ -15,7 +15,7 @@ Welcome to the iExec FAQ section. Here you'll find answers to common questions.
 
 ---
 <details>
- ## <summary>🔹 Issues with deploying smart contracts on Bellecour </summary>
+ <summary>🔹 Issues with deploying smart contracts on Bellecour </summary>
   
   ### Problem  
 iExec Sidechain “Bellecour” is a standard EVM-based sidechain dedicated to the iExec protocol. This article lists some of the things that can go wrong when one attempts to deploy smart contracts on IExec Sidechain Bellecour.
@@ -34,6 +34,8 @@ Possible causes and fixes :
   - Ensure sufficient gas limit (minimum 2M recommended)
 
 </details>
+
+
 ## 🔹 Issues with deploying smart contracts on Bellecour
 
 ### Problem  
