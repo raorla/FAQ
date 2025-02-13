@@ -1,7 +1,6 @@
 # Frequently Asked Questions
 
 Welcome to the iExec FAQ section. Here you'll find answers to common questions.
-
 ---
 <details>
   <summary>Returned data is always a file</summary>
