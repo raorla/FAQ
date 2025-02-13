@@ -1,6 +1,7 @@
 # Frequently Asked Questions
 
 Welcome to the iExec FAQ section. Here you'll find answers to common questions.
+
 ---
 <details>
   <summary>Returned data is always a file</summary>
@@ -56,6 +57,8 @@ Welcome to the iExec FAQ section. Here you'll find answers to common questions.
     It should be possible, we could make some stress test 
 
 </details>
+
+---
 
 ## 🔹 Issues with deploying smart contracts on Bellecour
 
