@@ -186,9 +186,10 @@ We're benchmarking worker processes across different code languages, aiming to i
 
 ## 🔹 Data Protector Access Issues
 
-### Problem: Whitelist Contract Error
-**Error Message:** "This whitelist contract [address] does not exist in the app whitelist registry"
-**Solution:** 
+### Problem
+Whitelist Contract Error
+**Error Message:** "This whitelist contract address does not exist in the app whitelist registry"
+### Solution
 - Use whitelisted app addresses
 - Default whitelisted app address: 0x256bcd881c33bdf9df952f2a0148f27d439f2e64
 - For custom apps, they need to be whitelisted by the iExec team
