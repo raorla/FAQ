@@ -6,8 +6,6 @@ Welcome to the iExec FAQ section. Here you'll find answers to common questions.
 
 - [Issues with deploying smart contracts on Bellecour](#-issues-with-deploying-smart-contracts-on-bellecour)
 - [Error: Failed to Establish an Encrypted Channel to CAS](#-error-failed-to-establish-an-encrypted-channel-to-cas)
-    -fzfafzfaf
-        -efefazz
 - [Accessing the SCONE build tools](#-accessing-the-scone-build-tools)
 - [Unable to sconify with node v16](#-unable-to-sconify-with-node-v16)
 - [Buffer is not defined](#-buffer-is-not-defined)
