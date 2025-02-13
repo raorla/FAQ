@@ -2,16 +2,6 @@
 
 Welcome to the iExec FAQ section. Here you'll find answers to common questions.
 
-
-<details>
-  <summary>Click to expand</summary>
-  
-  - Item 1
-  - Item 2
-  - Item 3
-
-</details>
-
 ## Table of Contents
 
 - [Issues with deploying smart contracts on Bellecour](#-issues-with-deploying-smart-contracts-on-bellecour)
@@ -24,7 +14,26 @@ Welcome to the iExec FAQ section. Here you'll find answers to common questions.
 - [Task processing is too long](#-task-processing-is-too-long)
 
 ---
+<details>
+  <summary>## 🔹 Issues with deploying smart contracts on Bellecour </summary>
+  
+  ### Problem  
+iExec Sidechain “Bellecour” is a standard EVM-based sidechain dedicated to the iExec protocol. This article lists some of the things that can go wrong when one attempts to deploy smart contracts on IExec Sidechain Bellecour.
 
+### Solution  
+Possible causes and fixes :
+- **Whitelisting Required**  
+  Only whitelisted wallets can deploy contracts.  
+  → [Request whitelisting via support ticket](https://iexecproject.atlassian.net/servicedesk/customer/portal/4/group/9/create/66)
+
+- **Incorrect Wallet**  
+  Verify you're using your whitelisted deployment wallet.
+
+- **Gas Configuration**  
+  - Set gas price to **0 Wei**
+  - Ensure sufficient gas limit (minimum 2M recommended)
+
+</details>
 ## 🔹 Issues with deploying smart contracts on Bellecour
 
 ### Problem  
