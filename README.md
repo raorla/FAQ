@@ -235,10 +235,11 @@ We're benchmarking worker processes across different code languages, aiming to i
 
 ## 🔹 Chain Support and Configuration
 
-### Problem: Custom Chain Support
+### Problem
+Custom Chain Support
 **Context:** Using DataProtector with different chains
 
-###**Solution:**
+### Solution
 - DataProtector is built specifically for iExec sidechain
 - Only supports https://bellecour.iex.ec
 - Not compatible with other chains like Citrea
