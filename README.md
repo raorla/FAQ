@@ -243,6 +243,7 @@ CORS in Development
 ## 🔹 Chain Support and Configuration
 ### Problem
 Custom Chain Support
+
 -**Context:** Using DataProtector with different chains
 
 ### Solution
