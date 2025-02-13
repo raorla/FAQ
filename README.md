@@ -2,17 +2,6 @@
 
 Welcome to the iExec FAQ section. Here you'll find answers to common questions.
 
-## Table of Contents
-
-- [Issues with deploying smart contracts on Bellecour](#-issues-with-deploying-smart-contracts-on-bellecour)
-- [Error: Failed to Establish an Encrypted Channel to CAS](#-error-failed-to-establish-an-encrypted-channel-to-cas)
-- [Accessing the SCONE build tools](#-accessing-the-scone-build-tools)
-- [Unable to sconify with node v16](#-unable-to-sconify-with-node-v16)
-- [Buffer is not defined](#-buffer-is-not-defined)
-- [Can I bridge RLC from a centralized exchange to The iExec Sidechain "Bellecour"?](#-can-i-bridge-rlc-from-a-centralized-exchange-to-the-iexec-sidechain-bellecour)
-- [CORS errors with The Graph](#-cors-errors-with-the-graph)
-- [Task processing is too long](#-task-processing-is-too-long)
-
 ---
 <details>
   <summary>Returned data is always a file</summary>
