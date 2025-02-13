@@ -15,26 +15,59 @@ Welcome to the iExec FAQ section. Here you'll find answers to common questions.
 
 ---
 <details>
- <summary>🔹 Issues with deploying smart contracts on Bellecour </summary>
+  <summary>Returned data is always a file</summary>
   
-  ### Problem  
-iExec Sidechain “Bellecour” is a standard EVM-based sidechain dedicated to the iExec protocol. This article lists some of the things that can go wrong when one attempts to deploy smart contracts on IExec Sidechain Bellecour.
+  - The output it's a file and it's always be zipped with its content
+  - It's possible to push the output on a blockchain
 
-### Solution  
-Possible causes and fixes :
-- **Whitelisting Required**  
-  Only whitelisted wallets can deploy contracts.  
-  → [Request whitelisting via support ticket](https://iexecproject.atlassian.net/servicedesk/customer/portal/4/group/9/create/66)
-
-- **Incorrect Wallet**  
-  Verify you're using your whitelisted deployment wallet.
-
-- **Gas Configuration**  
-  - Set gas price to **0 Wei**
-  - Ensure sufficient gas limit (minimum 2M recommended)
+</details>
+<details>
+  <summary>Is it possible to have encrypted output?</summary>
+  
+  - Yes, this is possible through the SDK options.
 
 </details>
 
+<details>
+  <summary>Where do the outputs land on IPFS?</summary>
+  
+  - The data is dropped decrypted on IPFS, but it is also possible to store it encrypted on IPFS or Dropbox for instance
+
+</details>
+
+<details>
+  <summary>Does encryption impact data organization and conversion?</summary>
+  
+  - Normally, no. The iApp is responsible for handling this.
+
+</details>
+
+<details>
+  <summary>Reverse lookup from an IPFS CID to the smart contract to find the data protector contract?</summary>
+  
+  - Yes, it's possible to find the wallet, task and deal.
+
+</details>
+<details>
+  <summary>Ability to look in the marketplace to add information for IP licensing?</summary>
+  
+  - Yes, this is possible.
+
+</details>
+
+<details>
+  <summary>Datapool processing?</summary>
+  
+  - Planned for Q2.
+
+</details>
+
+<details>
+  <summary>Will processing four megabytes be an issue in the TEE?</summary>
+  
+  - It should be possible, we could make some stress test 
+
+</details>
 
 ## 🔹 Issues with deploying smart contracts on Bellecour
 
