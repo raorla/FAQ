@@ -2,6 +2,16 @@
 
 Welcome to the iExec FAQ section. Here you'll find answers to common questions.
 
+
+<details>
+  <summary>Click to expand</summary>
+  
+  - Item 1
+  - Item 2
+  - Item 3
+
+</details>
+
 ## Table of Contents
 
 - [Issues with deploying smart contracts on Bellecour](#-issues-with-deploying-smart-contracts-on-bellecour)
