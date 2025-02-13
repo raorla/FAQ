@@ -188,7 +188,8 @@ We're benchmarking worker processes across different code languages, aiming to i
 
 ### Problem
 Whitelist Contract Error
--**Error Message:** "This whitelist contract address does not exist in the app whitelist registry"
+
+**Error Message:** "This whitelist contract address does not exist in the app whitelist registry"
 ### Solution
 - Use whitelisted app addresses
 - Default whitelisted app address: 0x256bcd881c33bdf9df952f2a0148f27d439f2e64
@@ -196,7 +197,8 @@ Whitelist Contract Error
 
 ### Problem
 Collection Management Access
--**Error Message:** "This collection can't be managed by you"
+
+**Error Message:** "This collection can't be managed by you"
 ### Solution
 - Only collection owners can manage their collections
 - Users need proper permissions to add to collections
@@ -208,7 +210,8 @@ Collection Management Access
 
 ### Problem
 Workerpool Order Not Found
--**Error Message:** "Could not find a workerpool order, maybe too many requests?"
+
+**Error Message:** "Could not find a workerpool order, maybe too many requests?"
 ### Solution
 - Retry after a few minutes when computing resources become available
 - This happens when the workerpool is at 100% capacity
@@ -227,7 +230,8 @@ Task Processing Stuck at 0%
 ## 🔹 Integration Issues
 ### Problem
 CORS in Development
--**Error Message:** "Access to fetch at 'https://ipfs-upload.v8-bellecour.iex.ec/api/v0/add' has been blocked by CORS policy"
+
+**Error Message:** "Access to fetch at 'https://ipfs-upload.v8-bellecour.iex.ec/api/v0/add' has been blocked by CORS policy"
 ### Solution
 - Use the recommended IPFS gateway: https://ipfs-gateway.v8-bellecour.iex.ec
 - For content creators, use: https://github.com/iExecBlockchainComputing/content-creator-usecase-demo/.env.prod
@@ -244,7 +248,7 @@ CORS in Development
 ### Problem
 Custom Chain Support
 
--**Context:** Using DataProtector with different chains
+**Context:** Using DataProtector with different chains
 
 ### Solution
 - DataProtector is built specifically for iExec sidechain
