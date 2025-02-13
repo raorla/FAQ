@@ -237,7 +237,8 @@ We're benchmarking worker processes across different code languages, aiming to i
 
 ### Problem: Custom Chain Support
 **Context:** Using DataProtector with different chains
-**Solution:**
+
+###**Solution:**
 - DataProtector is built specifically for iExec sidechain
 - Only supports https://bellecour.iex.ec
 - Not compatible with other chains like Citrea
@@ -246,7 +247,7 @@ We're benchmarking worker processes across different code languages, aiming to i
 const web3Provider = new Web3.providers.HttpProvider('https://bellecour.iex.ec');
 ```
 
-## 🔹 Best Practices and Workflows
+## 🔹 Best Practices and Workflows DPS
 
 ### Recommended Workflow for DataProtector Sharing:
 1. Create a collection
